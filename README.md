@@ -47,19 +47,19 @@ analisis-agua-facatativa/
 
 ## 👥 Integrantes y tareas
 
-### 👤 Integrante 1 – Exploración
+### 👤 Integrante 1 – Exploración (valentina saavedra)
 - Cargar el archivo CSV
 - Mostrar información del dataset
 - Revisar valores nulos
 - Generar estadísticas básicas
 
-### 👤 Integrante 2 – Procesamiento
+### 👤 Integrante 2 – Procesamiento(santiago )
 - Limpiar datos
 - Clasificar el pH (ácido, neutro, básico)
 - Identificar niveles de contaminación
 - Crear nuevas columnas
 
-### 👤 Integrante 3 – Modelo y método numérico
+### 👤 Integrante 3 – Modelo y método numérico (kelly)
 - Aplicar un modelo simple de clasificación
 - Implementar un método numérico (ej: promedio, interpolación o regresión)
 - Generar conclusiones
