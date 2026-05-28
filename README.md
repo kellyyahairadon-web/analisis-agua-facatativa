@@ -2,9 +2,9 @@
 
 ## 📌 Descripción
 
-Este proyecto tiene como objetivo analizar la calidad del agua en diferentes puntos de Facatativá utilizando herramientas básicas de Python como pandas y algunos métodos numéricos sencillos.
+Este proyecto tiene como objetivo analizar la calidad del agua en diferentes puntos de Facatativá utilizando herramientas básicas de Python como pandas y algunos métodos numéricos.
 
-Se trabajará con variables importantes como:
+Se trabajará con variables como:
 
 * pH
 * Oxígeno disuelto
@@ -12,7 +12,7 @@ Se trabajará con variables importantes como:
 * Dureza
 * Temperatura
 
-El análisis busca entender el comportamiento de estos datos y determinar si las condiciones del agua son adecuadas.
+El análisis se desarrolla a través de 4 retos, donde se avanza paso a paso desde la exploración hasta las conclusiones finales.
 
 ---
 
@@ -26,8 +26,9 @@ Analizar la calidad del agua en distintos puntos de Facatativá mediante técnic
 
 * Explorar los datos recolectados
 * Limpiar y organizar la información
-* Clasificar la calidad del agua según sus características
-* Aplicar un método numérico sencillo para analizar cambios en los datos
+* Analizar la relación entre variables
+* Aplicar un método numérico sencillo
+* Generar conclusiones a partir de los datos
 
 ---
 
@@ -39,10 +40,10 @@ analisis-agua-facatativa/
 │   └── datos_experimentales.csv
 │
 ├── notebooks/
-│   ├── 01_exploracion.ipynb
-│   ├── 02_procesamiento.ipynb
-│   ├── 03_modelo.ipynb
-│   └── 04_metodo_numerico.ipynb
+│   ├── reto1_exploracion.ipynb
+│   ├── reto2_procesamiento.ipynb
+│   ├── reto3_analisis.ipynb
+│   └── reto4_metodo_numerico.ipynb
 │
 ├── docs/
 │   └── analisis_teorico.md
@@ -54,34 +55,59 @@ analisis-agua-facatativa/
 
 ---
 
+## 🧠 Desarrollo por retos
 ## 👥 Integrantes y tareas
 
-### 👤 Integrante 1 – Exploración (Valentina Saavedra)
+### 👤 Valentina Saavedra
+
+* Exploración de datos (Reto 1)
+
+### 👤 Santiago
+
+* Procesamiento de datos (Reto 2y 3)
+
+### 👤 Kelly
+
+* Análisis, método numérico y conclusiones (Retos 4)
+
+---
+### 🔹 Reto 1 – Exploración
 
 * Cargar el archivo CSV
-* Mostrar información del dataset
-* Revisar valores nulos
-* Generar estadísticas básicas
+* Revisar los datos
+* Identificar valores nulos
+* Obtener estadísticas básicas
 
 ---
 
-### 👤 Integrante 2 – Procesamiento (Santiago)
+### 🔹 Reto 2 – Procesamiento
 
 * Limpiar los datos
 * Clasificar el pH (ácido, neutro, básico)
-* Identificar niveles de contaminación
-* Crear nuevas columnas para el análisis
+* Identificar condiciones del agua
+* Crear nuevas columnas
 
 ---
 
-### 👤 Integrante 3 – Modelo y método numérico (Kelly)
+### 🔹 Reto 3 – Análisis
 
-* Aplicar un modelo simple de análisis o clasificación
-* Implementar un método numérico (como diferencias entre datos, promedio o tendencia)
-* Analizar los resultados obtenidos
+* Analizar la relación entre temperatura y oxígeno
+* Usar condicionales para interpretar los datos
+* Identificar tendencias
+* Preparar la información para el análisis final
+
+---
+
+### 🔹 Reto 4 – Método numérico y conclusiones
+
+* Aplicar diferencias finitas (`.diff()`)
+* Analizar los cambios entre mediciones
+* Realizar gráfica (temperatura vs oxígeno)
+* Comparar resultados teóricos y experimentales
 * Generar conclusiones finales
 
 ---
+
 
 ## 🛠️ Herramientas usadas
 
@@ -94,16 +120,5 @@ analisis-agua-facatativa/
 
 ## 📊 Datos
 
-Los datos utilizados representan mediciones simuladas basadas en condiciones reales de fuentes hídricas en Facatativá.
-
+Los datos utilizados representan mediciones tomadas en diferente fuentes hidricas del municipio de Facatativa 
 ---
-
-## 📌 Notas
-
-Este proyecto es de carácter académico y tiene como finalidad practicar el análisis de datos y el trabajo colaborativo utilizando herramientas como GitHub.
-
----
-
-## 🚀 Estado del proyecto
-
-En desarrollo
